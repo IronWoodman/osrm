@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "tsc -p src",
+        "start": "tsc -p src && node ./dist/app.js"
+    },
+    "dependencies": {
+        "@types/node": "^13.9.0"
+    }
+}
